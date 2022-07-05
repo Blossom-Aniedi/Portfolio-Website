@@ -125,8 +125,7 @@ img {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
+  display: block;
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -137,6 +136,8 @@ img {
   font-family: 'Poppins'sans-serif;
   font-style: normal;
   font-weight: 500;
+  margin: 10px 10px;
+  float: left;
   font-size: 12px;
   line-height: 16px;
   padding: 4px 12px;
@@ -304,14 +305,19 @@ button {
   margin-top: 50px;
 }
 
-input {
-  width: 320px;
-  height: 48px;
+input{
+  width: 300px;
+  height: 40px;
+  padding: 10px;
   outline: none;
   margin: 10px 0;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+}
+
+input::placeholder {
+  color: #172b4e;
 }
 
 textarea {
@@ -348,5 +354,6 @@ textarea {
 
 .footer img {
   margin: 0 95px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
+
