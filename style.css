@@ -394,12 +394,11 @@ footer {
     background: #e5e5e5;
     grid-template-rows: repeat(2, 1fr);
   }
-  
 
   .section {
     width: 100%;
     height: 900px;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 0 0 0 140px;
   }
 
@@ -491,7 +490,7 @@ footer {
     height: 400px;
     display: flex;
     justify-items: center;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .section2 {
@@ -553,13 +552,14 @@ footer {
     flex-direction: row-reverse;
   }
 
-  #flexdirection_img
+  #flexdirection_img,
   #flexdirection2_img {
     margin: 0 3px;
   }
 
-  #flexdirection, 
-  #flexdirection2 .allcard {
+  #flexdirection,
+  #flexdirection2,
+  .allcard {
     margin-right: 30px;
   }
 
@@ -590,8 +590,8 @@ footer {
     line-height: 52px;
   }
 
-  #tags, 
-  #tags2{
+  #tags,
+  #tags2 {
     margin-top: -20px;
   }
 
@@ -709,9 +709,9 @@ footer {
     flex-direction: column;
   }
 
- textarea {
-  width: 430px;
- }
+  textarea {
+    width: 430px;
+  }
 
   .input {
     margin-top: 20px;
@@ -721,5 +721,4 @@ footer {
     width: 150px;
     height: 50px;
   }
-
 }
