@@ -385,19 +385,14 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  main {
-    width: 100%;
-  }
-
   .wrapper {
-    display: grid;
-    background: #e5e5e5;
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
   }
 
   .section {
     width: 100%;
-    height: 900px;
+    height: 650px;
     background-color: #fff;
     border-radius: 0 0 0 140px;
   }
@@ -420,14 +415,14 @@ footer {
   }
 
   .nav a {
-    margin-left: 170px;
+    margin-left: 50px;
     font-size: 18px;
     font-weight: 700;
   }
 
   nav ul {
     display: flex;
-    margin-right: 140px;
+    margin-right: 40px;
   }
 
   nav li {
@@ -445,13 +440,11 @@ footer {
   }
 
   .heading-section {
-    width: 94%;
-    padding: 20px;
-    height: 751px;
+    height: 20%;
     position: absolute;
     background: url(./image/Header\ bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-top: 70px;
     left: 40px;
   }
@@ -461,21 +454,19 @@ footer {
   .connect,
   .icons {
     display: flex;
-    margin-left: 13rem;
+    margin-left: 50px;
   }
 
   .name {
-    margin-top: 13rem;
+    margin-top: 50px;
     line-height: 60px;
     font-size: 48px;
   }
 
   .description1 {
-    width: 920px;
-    height: 98px;
+    width: 80%;
     line-height: 28px;
-    font-size: 20px;
-    margin-top: 20px;
+    word-wrap: break-word;
   }
 
   .connect {
@@ -486,30 +477,29 @@ footer {
   }
 
   .card5 {
-    width: 1100px;
+    width: 90%;
     height: 400px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
   }
 
   .section2 {
-    width: 100%;
-    margin-top: -70px;
-  }
-
-  .fourcards {
-    min-height: 100vh;
-    flex-wrap: wrap;
-    margin-top: -34rem;
+    width: 95.4%;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .card5 img {
-    width: 544px;
-    height: 400px;
+    width: 50%;
+    height: 100%;
   }
 
   .allcard {
+    width: 50%;
     display: flex;
     flex-direction: column;
   }
@@ -521,46 +511,32 @@ footer {
     margin-top: 30px;
   }
 
-  .canopy li {
-    font-weight: 500;
-    font-size: 18px;
-    color: #344563;
-    line-height: 52px;
-  }
-
   .liststyle {
     list-style: disc;
-    font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 24px;
   }
 
   .description {
-    width: 496px;
-    height: 50px;
-    font-weight: 400;
-    font-size: 16px;
-    margin-left: 10px;
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 14px;
     margin-bottom: 20px;
     line-height: 24px;
+    margin-left: 10px;
+  }
+
+  #description3,
+  #description4 {
+    width: 96%;
+    word-wrap: break-word;
   }
 
   #flexdirection,
   #flexdirection2 {
     display: flex;
     flex-direction: row-reverse;
-  }
-
-  #flexdirection_img,
-  #flexdirection2_img {
-    margin: 0 3px;
-  }
-
-  #flexdirection,
-  #flexdirection2,
-  .allcard {
-    margin-right: 30px;
   }
 
   #list,
@@ -585,14 +561,16 @@ footer {
   .list2,
   .facebook li {
     font-weight: 500;
-    font-size: 18px;
     color: #344563;
     line-height: 52px;
   }
 
-  #tags,
-  #tags2 {
+  .tags {
     margin-top: -20px;
+  }
+
+  #tags {
+    margin-top: 10px;
   }
 
   .uber {
@@ -609,20 +587,21 @@ footer {
     align-items: center;
     justify-content: center;
     height: 48px;
+    margin-top: 10px;
     margin-left: 10px;
   }
 
   .footer-section {
-    width: 96.5%;
-    height: 800px;
     margin-top: 100px;
+    height: 40rem;
     display: flex;
     flex-direction: row;
   }
 
   .footer_name {
-    margin-left: 90px;
+    width: 40%;
     display: flex;
+    margin: 40px;
     flex-direction: column;
   }
 
@@ -631,20 +610,15 @@ footer {
   }
 
   .footer_name h4 {
-    margin: 30px 10px;
+    margin: 5px 10px;
   }
 
   .footer_name ul {
     margin: 10px;
   }
 
-  .languages {
-    margin-left: 50px;
-  }
-
-  .footer-end {
-    display: flex;
-    margin-top: -700px;
+  .footer_languages {
+    width: 60%;
   }
 
   .programs {
@@ -653,8 +627,8 @@ footer {
   }
 
   .programs li {
-    width: 122px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
@@ -673,32 +647,33 @@ footer {
   }
 
   .framework {
-    width: 582px;
+    width: 90%;
+  }
+
+  .footer-end {
+    width: 100%;
+    margin-top: -5.5rem;
+    border-radius: 90px 0 0 0;
+    background-color: #6070ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .footer {
     background: url(./image/formbg.png);
-    width: 96.46%;
-    height: 550px;
-    position: absolute;
-    background-color: #6070ff;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -818px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    left: 0;
+    background-size: cover;
+    object-fit: contain;
+    background-color: #6070ff;
   }
 
   .footer-end h4 {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .footer-end p {
     width: 569px;
-    height: 102px;
     text-align: center;
   }
 
@@ -715,10 +690,15 @@ footer {
 
   .input {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .footer-end button {
     width: 150px;
     height: 50px;
+    margin-left: 56px;
   }
 }
