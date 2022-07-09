@@ -11,7 +11,7 @@ main {
 .wrapper {
   display: grid;
   background: #e5e5e5;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 body {
@@ -36,6 +36,10 @@ img {
   font-size: 18px;
   color: #6070ff;
   margin-left: 20px;
+}
+
+nav ul {
+  display: none;
 }
 
 .name {
@@ -86,6 +90,7 @@ img {
   height: 552px;
   padding: 16px;
   left: 24px;
+  margin-top: 60px;
 }
 
 .card5 {
@@ -105,9 +110,18 @@ img {
   color: #172b4d;
 }
 
+.canopy {
+  list-style: none;
+  color: #344563;
+}
+
 .list {
   display: flex;
   margin-top: 12px;
+}
+
+.list2 {
+  display: none;
 }
 
 .list p {
@@ -125,8 +139,11 @@ img {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
   margin: 0 12px;
+}
+
+.liststyle {
+  color: #7a869a;
 }
 
 .tags {
@@ -365,4 +382,323 @@ textarea {
 footer {
   display: flex;
   justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 0 0 0 140px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav img {
+    display: none;
+  }
+
+  .nav a {
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  nav ul {
+    display: flex;
+    margin-right: 40px;
+  }
+
+  nav li {
+    margin: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heading-section {
+    height: 20%;
+    position: absolute;
+    background: url(./image/Header\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    left: 40px;
+  }
+
+  .name,
+  .description1,
+  .connect,
+  .icons {
+    display: flex;
+    margin-left: 50px;
+  }
+
+  .name {
+    margin-top: 50px;
+    line-height: 60px;
+    font-size: 48px;
+  }
+
+  .description1 {
+    width: 80%;
+    line-height: 28px;
+    word-wrap: break-word;
+  }
+
+  .connect {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+  }
+
+  .card5 {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .section2 {
+    width: 95.4%;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card5 img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .allcard {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .allcard h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 30px;
+  }
+
+  .liststyle {
+    list-style: disc;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .description {
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    margin-left: 10px;
+  }
+
+  #description3,
+  #description4 {
+    width: 96%;
+    word-wrap: break-word;
+  }
+
+  #flexdirection,
+  #flexdirection2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #list,
+  #list2 {
+    display: none;
+  }
+
+  .list2 {
+    display: flex;
+  }
+
+  .list2 li {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 12px;
+    margin-top: 15px;
+  }
+
+  .list2,
+  .facebook li {
+    font-weight: 500;
+    color: #344563;
+    line-height: 52px;
+  }
+
+  .tags {
+    margin-top: -20px;
+  }
+
+  #tags {
+    margin-top: 10px;
+  }
+
+  .uber {
+    margin-left: 10px;
+  }
+
+  .tonic {
+    margin-left: 10px;
+  }
+
+  button {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .footer-section {
+    margin-top: 100px;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer_name {
+    width: 40%;
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+  }
+
+  #name2 {
+    margin: 10px;
+  }
+
+  .footer_name h4 {
+    margin: 5px 10px;
+  }
+
+  .footer_name ul {
+    margin: 10px;
+  }
+
+  .footer_languages {
+    width: 60%;
+  }
+
+  .programs {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .programs li {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .javascript img {
+    margin: 10px;
+  }
+
+  .javascript p {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .framework {
+    width: 90%;
+  }
+
+  .footer-end {
+    width: 100%;
+    margin-top: -5.5rem;
+    border-radius: 90px 0 0 0;
+    background-color: #6070ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    background: url(./image/formbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-color: #6070ff;
+  }
+
+  .footer-end h4 {
+    margin-top: 30px;
+  }
+
+  .footer-end p {
+    width: 569px;
+    text-align: center;
+  }
+
+  input {
+    display: flex;
+    width: 430px;
+    height: 40px;
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 430px;
+  }
+
+  .input {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-end button {
+    width: 150px;
+    height: 50px;
+    margin-left: 56px;
+  }
 }
