@@ -507,6 +507,10 @@ footer {
     transition: all 350ms;
   }
 
+  .javascript img {
+    margin: 10px;
+  }
+
   .card5 img:hover {
     transform: scale(0.9);
   }
@@ -609,7 +613,7 @@ footer {
   button:hover {
     transform: scale(1.08);
     background: #6070ff;
-    color: #ffffff;
+    color: #fff;
   }
 
   .footer-section {
@@ -656,10 +660,6 @@ footer {
     align-items: flex-start;
   }
 
-  .javascript img {
-    margin: 10px;
-  }
-
   .javascript p {
     margin-left: 15px;
     font-weight: 500;
@@ -700,13 +700,13 @@ footer {
     color: #091e42;
   }
 
-  .footer-end p:hover {
-    transform: translate(10px, 10px);
-  }
-
   .footer-end p {
     width: 569px;
     text-align: center;
+  }
+
+  .footer-end p:hover {
+    transform: translate(10px, 10px);
   }
 
   input {
@@ -740,6 +740,6 @@ footer {
   .footer-end button:hover {
     transform: scale(1.08);
     background: #2230d2;
-    color: #ffffff;
+    color: #fff;
   }
 }
