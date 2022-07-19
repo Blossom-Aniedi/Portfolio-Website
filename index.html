@@ -18,11 +18,28 @@
         <header>
           <nav class="nav">
             <a>My logo</a>
-            <img src="./image/menu.png" alt="menu icon" />
+            <div class="mob-navbar">
+            <a href="#" id="option-head">Welcome</a>
+            <img src="./image/menu.png" alt="menu icon" id="menu2">
+          </div>
+            <div class="mob-nav-container" id="menu">
+              <img src="./image/Cancel.png" alt="cancel iconn" id="cancel">
+              <ul class="mob-nav">
+                <li>
+                  <a href="#Portfolio" onclick="display()">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#About" onclick="display()">About</a>
+                </li>
+                <li>
+                  <a href="#Contact" onclick="display()">Contact</a>
+                </li>
+              </ul>
+            </div>
             <ul>
-              <li>Portfolio</li>
-              <li>About</li>
-              <li>Contact</li>
+              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Contact">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -70,7 +87,7 @@
         </section>
       </section>
       <div class="fourcards">
-        <section class="section2">
+        <section class="section2" id="Portfolio">
           <div class="card5">
             <img src="./image/profilephoto.png" alt="" />
             <div class="allcard">
@@ -180,11 +197,11 @@
           </div>
         </section>
       </div>
-      <section class="footer-section">
+      <section class="footer-section" id="About">
         <div class="footer_name">
           <h1 class="name" id="name2">
-            About <br />
-            Myself
+            About <br/>
+              Myse
           </h1>
           <p class="description">
             I’m a software developer! I can help you build a product , feature
@@ -254,7 +271,7 @@
         </div>
       </section>
 
-      <footer class="footer-end">
+      <footer class="footer-end" id="Contact">
         <form
           action="https://formspree.io/f/xoqrojyw"
           method="post"
@@ -294,5 +311,6 @@
         </form>
       </footer>
     </main>
+    <script src="../mobile_menu.js"></script>
   </body>
 </html>
