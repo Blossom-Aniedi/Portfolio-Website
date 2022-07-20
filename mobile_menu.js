@@ -3,7 +3,6 @@ const cancel = document.getElementById('cancel');
 const nav = document.getElementById('menu');
 const links = document.querySelectorAll('.link');
 
-
 function Show() {
   nav.classList.add('Show');
   cancel.style.display = 'flex';
