@@ -10,5 +10,9 @@ function Show(){
 }
 
 menu.addEventListener('click', Show)
-
-
+function Hide(){
+  nav.classList.remove('Show')
+  cancel.style.display = 'none'
+  menu.style.display = 'flex'
+}
+cancel.addEventListener('click', Hide)
