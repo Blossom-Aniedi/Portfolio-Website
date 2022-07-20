@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Portfolio</title>
   </head>
 
   <body>
@@ -18,11 +18,28 @@
         <header>
           <nav class="nav">
             <a>My logo</a>
-            <img src="./image/menu.png" alt="menu icon" />
+            <div class="mob-navbar">
+              <a href="#" id="option-head">Welcome</a>
+              <img src="./image/menu.png" alt="menu icon" id="menu2" />
+            </div>
+            <div class="mob-nav-container" id="menu">
+              <img src="./image/Cancel.png" alt="cancel icon" id="cancel" />
+              <ul class="mob-nav" id="mob-navv">
+                <li id="colr">
+                  <a class="link" href="#Portfolio" onclick="display()">Portfolio</a>
+                </li>
+                <li id="colr2">
+                  <a class="link" href="#About" onclick="display()">About</a>
+                </li>
+                <li id="colr3">
+                  <a class="link" href="#Contact" onclick="display()">Contact</a>
+                </li>
+              </ul>
+            </div>
             <ul>
-              <li>Portfolio</li>
-              <li>About</li>
-              <li>Contact</li>
+              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Contact">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -70,7 +87,7 @@
         </section>
       </section>
       <div class="fourcards">
-        <section class="section2">
+        <section class="section2" id="Portfolio">
           <div class="card5">
             <img src="./image/profilephoto.png" alt="" />
             <div class="allcard">
@@ -180,7 +197,7 @@
           </div>
         </section>
       </div>
-      <section class="footer-section">
+      <section class="footer-section" id="About">
         <div class="footer_name">
           <h1 class="name" id="name2">
             About <br />
@@ -254,13 +271,13 @@
         </div>
       </section>
 
-      <footer class="footer-end">
+      <footer class="footer-end" id="Contact">
         <form
           action="https://formspree.io/f/xoqrojyw"
           method="post"
           class="footer"
         >
-          <h4>Contact me</h4>
+          <h4>Contact Me</h4>
           <p>
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
@@ -294,5 +311,6 @@
         </form>
       </footer>
     </main>
+    <script src="./mobile_menu.js"></script>
   </body>
 </html>

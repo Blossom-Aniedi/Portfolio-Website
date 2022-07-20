@@ -31,15 +31,90 @@ img {
   cursor: pointer;
 }
 
+nav a {
+  color: #172b4d;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.mob-nav a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 65px;
+  color: #2230d2;
+}
+
 .nav a {
   font-weight: 700;
-  font-size: 18px;
   color: #6070ff;
+  transform: scale(1);
   margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav a:hover {
+  transform: rotate(363deg);
+  color: #2230d2;
 }
 
 nav ul {
   display: none;
+}
+
+#option-head {
+  display: none;
+}
+
+#colr a {
+  color: #fff;
+}
+
+#colr2 a {
+  color: #fff;
+}
+
+#colr3 a {
+  color: #fff;
+}
+
+.mob-nav-container {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background-color: rgba(17, 24, 218, 0.605);
+  position: fixed;
+  display: none;
+  padding-top: 50px;
+}
+
+.mob-nav-container.Show {
+  display: flex;
+}
+
+.mob-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.mob-navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#cancel {
+  display: none;
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 18px;
+  right: 8px;
 }
 
 .name {
@@ -496,6 +571,16 @@ footer {
   .card5 img {
     width: 50%;
     height: 100%;
+    transform: scale(1);
+    transition: all 350ms;
+  }
+
+  .javascript img {
+    margin: 10px;
+  }
+
+  .card5 img:hover {
+    transform: scale(0.9);
   }
 
   .allcard {
@@ -589,6 +674,14 @@ footer {
     height: 48px;
     margin-top: 10px;
     margin-left: 10px;
+    transform: scale(1);
+    transition: all 350ms;
+  }
+
+  button:hover {
+    transform: scale(1.08);
+    background: #6070ff;
+    color: #fff;
   }
 
   .footer-section {
@@ -635,10 +728,6 @@ footer {
     align-items: flex-start;
   }
 
-  .javascript img {
-    margin: 10px;
-  }
-
   .javascript p {
     margin-left: 15px;
     font-weight: 500;
@@ -670,6 +759,13 @@ footer {
 
   .footer-end h4 {
     margin-top: 30px;
+    transform: scale(1);
+    cursor: pointer;
+  }
+
+  .footer-end h4:hover {
+    transform: scale(1.09);
+    color: #091e42;
   }
 
   .footer-end p {
@@ -677,11 +773,23 @@ footer {
     text-align: center;
   }
 
+  .footer-end p:hover {
+    transform: translate(10px, 10px);
+  }
+
   input {
     display: flex;
     width: 430px;
     height: 40px;
     flex-direction: column;
+  }
+
+  .mob-navbar {
+    display: none;
+  }
+
+  #option-head {
+    display: flex;
   }
 
   textarea {
@@ -700,5 +808,14 @@ footer {
     width: 150px;
     height: 50px;
     margin-left: 56px;
+    transform: scale(1);
+    transition: all 350ms;
+    cursor: pointer;
+  }
+
+  .footer-end button:hover {
+    transform: scale(1.08);
+    background: #2230d2;
+    color: #fff;
   }
 }
