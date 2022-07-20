@@ -39,7 +39,7 @@ nav a {
 }
 
 .mob-nav a {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -69,7 +69,15 @@ nav ul {
 }
 
 #colr a {
-  color: #ffffff;
+  color: #fff;
+}
+
+#colr2 a {
+  color: #fff;
+}
+
+#colr3 a {
+  color: #fff;
 }
 
 .mob-nav-container {
