@@ -1,6 +1,8 @@
 const menu = document.getElementById('menu2');
 const cancel = document.getElementById('cancel');
 const nav = document.getElementById('menu');
+const links = document.querySelectorAll('.link');
+
 
 function Show() {
   nav.classList.add('Show');
@@ -15,3 +17,7 @@ function Hide() {
   menu.style.display = 'flex';
 }
 cancel.addEventListener('click', Hide);
+
+links.forEach((link) => {
+  link.addEventListener('click', Hide);
+});
