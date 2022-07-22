@@ -2,6 +2,7 @@ const fourcards = document.querySelector('.fourcards');
 
 const projects = [
   {
+    id: 1,
     Title: 'Tonic',
     imglink: './image/profilephoto.png',
     company: 'CANOPY',
@@ -16,6 +17,7 @@ const projects = [
     demoLink: '',
   },
   {
+    id: 2,
     Title: 'Multi-Post Stories',
     imglink: './image/availability.png',
     company: 'FACEBOOK',
@@ -30,6 +32,7 @@ const projects = [
     demoLink: '',
   },
   {
+    id: 3,
     Title: 'Facebook 306',
     imglink: './image/exercise.png',
     company: 'FACEBOOK',
@@ -44,6 +47,7 @@ const projects = [
     demoLink: '',
   },
   {
+    id: 4,
     Title: 'Uber Navigation',
     imglink: './image/art.png',
     company: 'UBER',
@@ -78,7 +82,7 @@ const maps = () => {
           <p class="tag2">${project.tag2}</p>
           <p class="tag3">${project.tag3}</p>
           </div>
-          <button>See Project</button>
+          <button id="modal_popup" data-work${project.id}>See Project</button>
         </div>
       </div>
     </section>
