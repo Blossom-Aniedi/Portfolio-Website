@@ -2,6 +2,8 @@ const menu = document.getElementById('menu2');
 const cancel = document.getElementById('cancel');
 const nav = document.getElementById('menu');
 const links = document.querySelectorAll('.link');
+const popup = document.querySelectorAll('.link');
+
 
 function Show() {
   nav.classList.add('Show');
