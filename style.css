@@ -582,9 +582,13 @@ footer {
   justify-content: center;
 }
 
-#popcard {
-  display: none;
+.See a {
+  width: 50%;
 }
+
+/* #popcard {
+  display: none;
+} */
 
 .bothbtn {
   display: flex;
@@ -979,6 +983,12 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  #form_message_error {
+    color: rgb(239, 0, 0);
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
   }
 
   .footer-end button {
