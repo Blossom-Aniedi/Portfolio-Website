@@ -483,6 +483,7 @@ footer {
   height: 90vh;
   display: flex;
   border-radius: 5%;
+
   /* position: fixed; */
   background-color: #fff;
   flex-direction: column;
@@ -535,7 +536,6 @@ footer {
 }
 
 .displaystyle {
-  font-size: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -573,17 +573,16 @@ footer {
   margin: 0 10px;
   margin-top: 30px;
   display: flex;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   align-items: center;
   justify-content: center;
-  
 }
 
-.popcard {
+#popcard {
   display: none;
 }
 
@@ -624,6 +623,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #iconimage,
+  img {
+    width: 25%;
+    color: #fff;
   }
 
   nav img {
@@ -718,6 +723,12 @@ footer {
 
   .javascript img {
     margin: 10px;
+  }
+
+  #iconimage,
+  img:hover {
+    width: 25%;
+    color: #fff;
   }
 
   .card5 img:hover {
@@ -906,6 +917,11 @@ footer {
     cursor: pointer;
   }
 
+  .deskpop h4,
+  #x {
+    padding: 12px;
+  }
+
   .footer-end h4:hover {
     transform: scale(1.09);
     color: #091e42;
@@ -914,6 +930,24 @@ footer {
   .footer-end p {
     width: 569px;
     text-align: center;
+  }
+
+  .desktags p {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin: 2%;
+    float: left;
+    font-size: 9px;
+    line-height: 16px;
+    padding: 2px 8px;
+    background: #ebebff;
+    border-radius: 7px;
+  }
+
+  .deskSee p {
+    width: 80%;
   }
 
   .footer-end p:hover {
@@ -965,7 +999,7 @@ footer {
   #deskpopcard {
     display: none;
   }
- 
+
   /* .wrapperadd {
     display: flex;
   } */
@@ -993,7 +1027,7 @@ footer {
   }
 
   .popcard {
-  display: none;
+    display: none;
   }
 
   .deskpopcard {
@@ -1014,12 +1048,6 @@ footer {
     border-radius: 10px;
     top: 11%;
     background-color: #fff;
-    
-  }
-
-  .deskpop h4,
-  #x {
-    padding: 12px;
   }
 
   .deskpop {
@@ -1030,10 +1058,9 @@ footer {
   .ullist {
     margin-top: -40px;
     padding: 12px;
-
   }
 
-  .flexx {
+  #flexx {
     display: flex;
     padding: 10px 12px;
   }
@@ -1044,21 +1071,7 @@ footer {
     color: #344563;
   }
 
-  .desktags p {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    margin: 2%;
-    float: left;
-    font-size: 9px;
-    line-height: 16px;
-    padding: 2px 8px;
-    background: #ebebff;
-    border-radius: 7px;
-  }
-
-  .desktagbutton  {
+  .desktagbutton {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -1084,20 +1097,5 @@ footer {
     font-size: 10px;
     align-items: center;
     flex-direction: row;
-}
-
-.deskSee p {
-  width: 80%;
-}
-
-#iconimage, img{
-  width: 25%;
-  color: #fff;
-}
-
-#iconimage, img:hover {
-  width: 25%;
-  color: #fff;
-}
-
+  }
 }
