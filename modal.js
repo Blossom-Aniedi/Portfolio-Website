@@ -69,14 +69,18 @@ const maps = () => {
   projects.map((project) => {
     fourcards.innerHTML += ` <section class="section2" id="Portfolio">
       <div class="card5">
-        <img src="${project.imglink}" alt="" />
+        <div class = "card-img-container">
+          <img class = "card-image" src="${project.imglink}" alt="" />
+        </div>
         <div class="allcard">
-          <h4 class="tonic">${project.Title}</h4>
-          <ul class="list">
-            <li class="canopy">${project.company}</li>
-            <li class="liststyle">${project.developer}</li>
-            <li class="liststyle">${project.year}</li>
-          </ul>
+          <div card-title-con>
+            <h4 class="tonic">${project.Title}</h4>
+            <ul class="list">
+              <li class="canopy">${project.company}</li>
+              <li class="liststyle">${project.developer}</li>
+              <li class="liststyle">${project.year}</li>
+            </ul>
+          </div>
           <p class="description">${project.description}</p>
           <div class="tags" id="tags">
           <p class="tag1">${project.tag1}</p>
@@ -106,38 +110,30 @@ const maps = () => {
             <li class="displaystyle">Back End Dev</li>
             <li class="displaystyle">2015</li>
           </ul>
-          <img
-            src="./image/desktoppop.jpg"
-            alt="Pop up image"
-            id="desktoppopimg"
-          />
-          <div class="flexx" id="flexx">
-            <p  id="deskpopgraph">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+          <div class = 'popup-img-container'>
+            <img src="./image/desktoppop.jpg" alt="Pop up image" id="desktoppopimg"/>
+          </div>
+            <div class="flexx" id="flexx">
+              <p class = "popup-para"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
               temporibus nemo ex quae repellendus praesentium, quisquam
               voluptatibus iure consequatur ut fugiat nulla consectetur dolorum
-              nam sapiente sit voluptatum cum magni eaa.
-            </p>
-            <div class="desktagbutton">
-              <div class="desktags" id="desktags2">
-                <p>Html</p>
-                <p>css</p>
-                <p>Javascript</p>
-              </div>
-              <div class="desktags" id="desktags3">
-                <p>github</p>
-                <p>ruby</p>
-                <p>Bootstrap</p>
-              </div>
-              <div class="deskbothbtn" id="deskbothbtn">
-                <button class="deskSee" id="buttonicon">
-                  <p>See live</p>
-                 <a href="#"> <img src="./image/Icon.png" alt="" id="iconimage" /></a>
-                </button>
-                <button class="deskSee">
-                  <p>See Source</p>
-                  <a href="https://github.com/Blossom-Aniedi"><img src="./image/Vector.png" alt="git image" id="iconimage" /></a>
-                </button>
+              nam sapiente sit voluptatum cum magni eaa</p>
+              <div class="desktagbutton">
+                <div class="desktags" id="desktags2">
+                  <p>Html</p>
+                  <p>css</p>
+                  <p>Javascript</p>
+                </div>
+                <div class="desktags" id="desktags3">
+                  <p>github</p>
+                  <p>ruby</p>
+                  <p>Bootstrap</p>
+                </div>
+                <div class="deskbothbtn" id="deskbothbtn">
+                <div class = "btn-container">
+                    <a href="#" class="deskSee" id="buttonicon" >See Live <img src="./image/Icon.png" alt="" id="iconimage" /></a>
+                    <a href="https://github.com/Blossom-Aniedi" class="deskSee" > See Source <img src="./image/Vector.png" alt="git image" id="iconimage" /></a>
+                </div
               </div>
             </div>
           </div>
