@@ -432,6 +432,12 @@ textarea {
   padding: 10px;
 }
 
+#form_message_error {
+  color: #f80a0a;
+  font-size: 14px;
+  font-family: "poppins", sans-serif;
+}
+
 .getbutton {
   display: flex;
   flex-direction: column;
@@ -971,6 +977,12 @@ footer {
 
   textarea {
     width: 430px;
+  }
+
+  #form_message_error {
+    color: #f80a0a;
+    font-size: 14px;
+    font-family: "poppins", sans-serif;
   }
 
   .input {
