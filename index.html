@@ -26,13 +26,17 @@
               <img src="./image/Cancel.png" alt="cancel icon" id="cancel" />
               <ul class="mob-nav" id="mob-navv">
                 <li id="colr">
-                  <a class="link" href="#Portfolio" onclick="display()">Portfolio</a>
+                  <a class="link" href="#Portfolio" onclick="display()"
+                    >Portfolio</a
+                  >
                 </li>
                 <li id="colr2">
                   <a class="link" href="#About" onclick="display()">About</a>
                 </li>
                 <li id="colr3">
-                  <a class="link" href="#Contact" onclick="display()">Contact</a>
+                  <a class="link" href="#Contact" onclick="display()"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
@@ -87,7 +91,7 @@
         </section>
       </section>
       <div class="fourcards">
-        <section class="section2" id="Portfolio">
+        <!-- <section class="section2" id="Portfolio">
           <div class="card5">
             <img src="./image/profilephoto.png" alt="" />
             <div class="allcard">
@@ -103,7 +107,7 @@
               </p>
               <div class="tags" id="tags">
                 <p>Html</p>
-                <p>css</p>
+                <p>Css</p>
                 <p>Javascript</p>
               </div>
               <button>See Project</button>
@@ -173,7 +177,7 @@
             />
             <div class="allcard">
               <h4 class="uber">Uber Navigation</h4>
-              <ul class="list" id="list2">
+              <ul class="list" id="list2">pro
                 <li class="canopy">CANOPY</li>
                 <li class="liststyle">Back End Dev</li>
                 <li class="liststyle">2015</li>
@@ -195,7 +199,7 @@
               <button class="uber_button">See Project</button>
             </div>
           </div>
-        </section>
+        </section> -->
       </div>
       <section class="footer-section" id="About">
         <div class="footer_name">
@@ -276,6 +280,7 @@
           action="https://formspree.io/f/xoqrojyw"
           method="post"
           class="footer"
+          id="input"
         >
           <h4>Contact Me</h4>
           <p>
@@ -288,15 +293,16 @@
               type="text"
               name="name"
               maxlength="30"
+              minlength="3"
               placeholder="Name"
               required
             />
             <input
               type="email"
               name="email"
-              maxlength="30"
-              placeholder="Email"
+              placeholder="Email Address"
               required
+              id="email"
             />
             <textarea
               name="message"
@@ -307,10 +313,60 @@
               required
             ></textarea>
           </div>
+          <p id="form_message_error"></p>
           <button type="submit" class="getbutton">Get It Touch</button>
         </form>
       </footer>
     </main>
+
+    <!-- Popup Modal -->
+    <!-- <section class="popcard" id="popcard">
+      <div class="popup">
+        <header class="pop">
+          <h4>Tonic</h4>
+          <p id="x">&times;</p>
+        </header>
+        <ul class="ullist">
+          <li class="stylenone">CANOPY</li>
+          <li class="displaystyle">Back End Dev</li>
+          <li class="displaystyle">2015</li>
+        </ul>
+        <img src="./image/profilephoto.png" alt="Pop up image" id="popimg" />
+        <img
+          src="./image/desktoppop.jpg"
+          alt="Pop up image"
+          id="desktoppopimg"
+        />
+        <p id="popgraph">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type
+        </p>
+        <div class="tags" id="tags2">
+          <p>Html</p>
+          <p>css</p>
+          <p>Javascript</p>
+        </div>
+        <div class="bothbtn" id="bothbtn">
+          <button class="See">
+            <p>See live</p>
+            <a href="#"> <img src="./image/Icon.png" alt="" id="iconimage" /></a>
+          </button>
+          <button class="See">
+            <p>See Source</p>
+            <a href="https://github.com/Blossom-Aniedi"><img src="./image/Vector.png" alt="git image" id="iconimage" /></a>
+          </button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="deskpopcard" id="deskpopcard"></section>
     <script src="./mobile_menu.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./form.js"></script>
+    <script src="./display_modal.js"></script>
   </body>
 </html>
