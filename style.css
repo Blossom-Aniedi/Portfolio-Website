@@ -432,6 +432,12 @@ textarea {
   padding: 10px;
 }
 
+#form_message_error {
+  color: #ed1000;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+}
+
 .getbutton {
   display: flex;
   flex-direction: column;
@@ -485,7 +491,6 @@ footer {
   display: flex;
   border-radius: 5%;
   overflow-x: hidden;
-  /* position: fixed; */
   background-color: #fff;
   flex-direction: column;
   padding: 5%;
@@ -591,22 +596,22 @@ footer {
   width: 50%;
 }
 
-#popcard {
+/* #popcard {
   display: none;
-}
+} */
 
 .bothbtn {
   display: flex;
   margin-left: -7px;
 }
-
+/* 
 #desktoppopimg {
   display: none;
-}
+} */
 
-.deskpopcard {
+/* .deskpopcard {
   display: none;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .wrapper {
@@ -991,7 +996,7 @@ footer {
   }
 
   #form_message_error {
-    color: rgb(239, 0, 0);
+    color: #ed1000;
     font-size: 18px;
     font-family: "poppins", sans-serif;
   }
@@ -1019,13 +1024,13 @@ footer {
     display: flex;
   } */
 
-  #popgraph {
+  /* #popgraph {
     display: none;
-  }
+  } */
 
-  #popimg {
+  /* #popimg {
     display: none;
-  }
+  } */
 
   #desktoppopimg {
     display: flex;
@@ -1041,9 +1046,9 @@ footer {
     width: 60%;
   }
 
-  .popcard {
+  /* .popcard {
     display: none;
-  }
+  } */
 
   .deskpopcard {
     height: 100vh;
