@@ -518,6 +518,7 @@ footer {
   font-size: 35px;
   color: gray;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .popcard h4 {
@@ -934,6 +935,11 @@ footer {
   .deskpop h4,
   #x {
     padding: 12px;
+    cursor: pointer;
+  }
+
+  #x:hover {
+    color: #ed1000;
   }
 
   .footer-end h4:hover {
