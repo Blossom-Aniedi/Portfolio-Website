@@ -15,7 +15,7 @@ form.addEventListener('submit', (event) => {
 
 function preserveFormData() {
   const form = document.getElementById('contact-form');
-  let formData = { name:'', email:'', message:'' };
+  let formData = { name: '', email: '', message: '' };
   const checkStorage = window.localStorage.getItem('data');
   if (checkStorage) {
     const getStorage = checkStorage;
@@ -23,13 +23,13 @@ function preserveFormData() {
     form.name.value = formData.name;
     form.email.value = formData.email;
     form.message.value = formData.message;
-  } 
+  }
   form.addEventListener('input', () => {
     formData.name = form.name.value;
     formData.email = form.email.value;
     formData.message = form.message.value;
     window.localStorage.setItem('data', JSON.stringify(formData));
-  })
+  });
 }
 
-preserveFormData()
+preserveFormData();
