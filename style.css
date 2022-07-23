@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: #091898;
 }
@@ -163,7 +163,7 @@ nav ul {
   height: calc(100vh - 50px);
 }
 
-.hero-content{
+.hero-content {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -179,7 +179,7 @@ nav ul {
   gap: 13px;
 }
 
-.fourcards{
+.fourcards {
   padding-block: 200px;
   display: flex;
   flex-direction: column;
@@ -197,20 +197,20 @@ nav ul {
 }
 
 .card5 {
- display: flex;
- flex-direction: column;
- justify-content: center ;
- margin: 0 auto;
- width: 90%;
- gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  gap: 15px;
 }
 
-.card-img-container{
+.card-img-container {
   width: 100%;
   height: 50%;
 }
 
-.card-image{
+.card-image {
   width: 100%;
   height: 100%;
 }
@@ -285,7 +285,6 @@ nav ul {
   background: #ebebff;
   border-radius: 8px;
 }
-
 
 button {
   padding: 16px;
@@ -672,17 +671,16 @@ footer {
   margin-left: 5%;
 }
 
-.popup-img-container{
+.popup-img-container {
   width: 95%;
   margin: 0 auto;
   height: 230px;
 }
 
-
 #desktoppopimg {
   padding-top: 20px;
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
 
 .flexx {
@@ -707,29 +705,29 @@ footer {
   margin: 0 auto;
 }
 
-.desktags{
+.desktags {
   display: flex;
   gap: 5px;
 }
 
-.desktags p{
+.desktags p {
   font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
-    color: #6070ff;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
 }
 
 .deskSee {
-  border: 1px solid #7F8CFF;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
   padding: 12px;
   gap: 10px;
 }
 
-.btn-container{
+.btn-container {
   padding-block: 40px;
   display: flex;
   gap: 10px;
@@ -761,8 +759,6 @@ footer {
     align-items: center;
     justify-content: center;
   }
-
-
 
   #iconimage {
     width: 16px;
@@ -834,7 +830,7 @@ footer {
     margin-top: 24px;
   }
 
-  .card-img-container{
+  .card-img-container {
     height: 400px;
   }
 
@@ -947,7 +943,6 @@ footer {
   .uber {
     margin-left: 10px;
   }
-
 
   button {
     width: 130px;
@@ -1150,9 +1145,6 @@ footer {
     display: none;
   } */
 
-
-  
-
   .tagbutton {
     width: 60%;
   }
@@ -1195,16 +1187,12 @@ footer {
   }
 
   .flexx {
-   display: grid;
-   grid-template-columns: 1.3fr 1fr;
-
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
   }
 
-  .btn-container{
+  .btn-container {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-
-  
-
 }
