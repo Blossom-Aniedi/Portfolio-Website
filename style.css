@@ -588,9 +588,9 @@ footer {
   justify-content: center;
 }
 
-#popcard {
+/* #popcard {
   display: none;
-}
+} */
 
 .bothbtn {
   display: flex;
@@ -601,9 +601,9 @@ footer {
   display: none;
 }
 
-.deskpopcard {
+/* .deskpopcard {
   display: none;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .wrapper {
@@ -1008,21 +1008,22 @@ footer {
     color: #fff;
   }
 
-  /* #deskpopcard {
+  #deskpopcard {
     display: none;
-  } */
+  }
 
   /* .wrapperadd {
     display: flex;
-  } */
+  }
 
-  /* #popgraph {
+  #popgraph {
+    display: none;
+  }
+
+  #popimg {
     display: none;
   } */
-
-  /* #popimg {
-    display: none;
-  } */
+  
 
   #desktoppopimg {
     display: flex;
