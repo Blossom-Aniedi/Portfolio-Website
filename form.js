@@ -16,6 +16,6 @@ form.addEventListener('submit', (event) => {
       email: email.value,
       message: displayMsg.value,
     };
-    localStorage.setItem('data', JSON.stringify(data));
+    localStorage.setItem('data', JSON.stringify(formData));
   }
 });
