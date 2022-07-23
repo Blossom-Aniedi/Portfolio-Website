@@ -720,17 +720,22 @@ footer {
   color: #6070ff;
 }
 
+#desktags3 {
+  display: none;
+}
+
 .deskSee {
   border: 1px solid #7f8cff;
   border-radius: 8px;
-  padding: 12px;
-  gap: 10px;
+  padding: 10px;
+  gap: 1px;
 }
 
 .btn-container {
-  padding-block: 40px;
+  padding-block: 30px;
   display: flex;
-  gap: 10px;
+  margin-top: -20px;
+  gap: 16px;
   justify-content: center;
 }
 
@@ -1194,5 +1199,16 @@ footer {
   .btn-container {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .deskSee {
+    width: 160px;
+    transition: all 350ms;
+    transform: scale(1);
+  }
+
+  .deskSee:hover {
+    background-color: #2230d2;
+    transform: scale(1.01);
   }
 }
