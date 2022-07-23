@@ -148,11 +148,11 @@ const maps = () => {
       });
 
       const cancel = document.querySelector(".cancel");
-      cancel.addEventListener("click", Hide);
+      const deskpopup = document.querySelector(".deskpopup");
       function Hide() {
-        const deskpopup = document.querySelector(".deskpopup");
         deskpopup.style.display = "none";
       }
+      cancel.addEventListener("click", Hide);
     });
   });
 };

@@ -55,6 +55,10 @@ nav a {
   cursor: pointer;
 }
 
+.See a {
+  width: 50%;
+}
+
 .nav a:hover {
   transform: rotate(363deg);
   color: #2230d2;
@@ -434,7 +438,7 @@ textarea {
 
 #form_message_error {
   color: #ed1000;
-  font-size: 18px;
+  font-size: 14px;
   font-family: "poppins", sans-serif;
 }
 
@@ -592,10 +596,6 @@ footer {
   margin-left: 10px;
 }
 
-.See a {
-  width: 50%;
-}
-
 /* #popcard {
   display: none;
 } */
@@ -604,8 +604,8 @@ footer {
   display: flex;
   margin-left: -7px;
 }
-/* 
-#desktoppopimg {
+
+/* #desktoppopimg {
   display: none;
 } */
 
