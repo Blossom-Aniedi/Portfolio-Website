@@ -134,6 +134,38 @@ const maps = () => {
                     <a href="#" class="deskSee" id="buttonicon" >See Live <img src="./image/Icon.png" alt="" id="iconimage" /></a>
                     <a href="https://github.com/Blossom-Aniedi" class="deskSee" > See Source <img src="./image/Vector.png" alt="git image" id="iconimage" /></a>
                 </div
+          <img
+            src="./image/desktoppop.jpg"
+            alt="Pop up image"
+            id="desktoppopimg"
+          />
+          <div class="flexx" id="flexx">
+            <p  id="deskpopgraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+              temporibus nemo ex quae repellendus praesentium, quisquam
+              voluptatibus iure consequatur ut fugiat nulla consectetur dolorum
+              nam sapiente sit voluptatum cum magni eaa.
+            </p>
+            <div class="desktagbutton">
+              <div class="desktags" id="desktags2">
+                <p>Html</p>
+                <p>css</p>
+                <p>Javascript</p>
+              </div>
+              <div class="desktags" id="desktags3">
+                <p>github</p>
+                <p>ruby</p>
+                <p>Bootstrap</p>
+              </div>
+              <div class="deskbothbtn" id="deskbothbtn">
+                <button class="deskSee" id="buttonicon">
+                  <p>See live</p>
+                 <a href="#"> <img src="./image/Icon.png" alt="" id="iconimage" /></a>
+                </button>
+                <button class="deskSee">
+                  <p>See Source</p>
+                  <a href="https://github.com/Blossom-Aniedi"><img src="./image/Vector.png" alt="git image" id="iconimage" /></a>
+                </button>
               </div>
             </div>
           </div>

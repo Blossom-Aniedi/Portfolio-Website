@@ -280,7 +280,7 @@
           action="https://formspree.io/f/xoqrojyw"
           method="post"
           class="footer"
-          id="input"
+          id="contact-form"
         >
           <h4>Contact Me</h4>
           <p>
@@ -305,17 +305,18 @@
               id="email"
             />
             <textarea
-              name="message"
-              cols="30"
-              rows="10"
-              maxlength="500"
-              placeholder="Write your message here"
-              required
+            name="message"
+            cols="30"
+            rows="10"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
             ></textarea>
+            <p id="form_message_error"></p>
           </div>
           <p id="form_message_error"></p>
           <button type="submit" class="getbutton">Get It Touch</button>
-        </form>
+        </form> 
       </footer>
     </main>
 
@@ -362,8 +363,56 @@
         </div>
       </div>
     </section> -->
-
     <section class="deskpopcard" id="deskpopcard"></section>
+    <section class="deskpopcard" id="deskpopcard">
+      <div class="deskpopup">
+        <header class="deskpop">
+          <h4>Tonic</h4>
+          <p id="x" class="cancel">&times;</p>
+        </header>
+        <ul class="ullist">
+          <li class="stylenone">CANOPY</li>
+          <li class="displaystyle">Back End Dev</li>
+          <li class="displaystyle">2015</li>
+        </ul>
+        <img
+          src="./image/desktoppop.jpg"
+          alt="Pop up image"
+          id="desktoppopimg"
+        />
+        <div class="flexx" id="flexx">
+          <p id="deskpopgraph">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+            temporibus nemo ex quae repellendus praesentium, quisquam
+            voluptatibus iure consequatur ut fugiat nulla consectetur dolorum
+            nam sapiente sit voluptatum cum magni eaa.
+          </p>
+          <div class="desktagbutton">
+            <div class="desktags" id="desktags2">
+              <p>Html</p>
+              <p>css</p>
+              <p>Javascript</p>
+            </div>
+            <div class="desktags" id="desktags3">
+              <p>github</p>
+              <p>ruby</p>
+              <p>Bootstrap</p>
+            </div>
+            <div class="deskbothbtn" id="deskbothbtn">
+              <button class="deskSee" id="buttonicon">
+                <p>See live</p>
+               <a href="#"> <img src="./image/Icon.png" alt="" id="iconimage" /></a>
+              </button>
+              <button class="deskSee">
+                <p>See Source</p>
+                <a href="https://github.com/Blossom-Aniedi"><img src="./image/Vector.png" alt="git image" id="iconimage" /></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="./mobile_menu.js"></script>
     <script src="./modal.js"></script>
     <script src="./form.js"></script>
