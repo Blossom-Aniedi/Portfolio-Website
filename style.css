@@ -1008,21 +1008,21 @@ footer {
     color: #fff;
   }
 
-  #deskpopcard {
+  /* #deskpopcard {
     display: none;
-  }
+  } */
 
   /* .wrapperadd {
     display: flex;
   } */
 
-  #popgraph {
+  /* #popgraph {
     display: none;
-  }
+  } */
 
-  #popimg {
+  /* #popimg {
     display: none;
-  }
+  } */
 
   #desktoppopimg {
     display: flex;
@@ -1070,6 +1070,11 @@ footer {
   .ullist {
     margin-top: -40px;
     padding: 12px;
+  }
+
+  #x:hover {
+    color: #f30808;
+    cursor: pointer;
   }
 
   #flexx {
